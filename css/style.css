@@ -148,7 +148,6 @@ a:hover, a:active, a:focus {
   flex-direction: column;
   width: 405px;
   height: 450px;
-  border: 1px solid black;
   margin: 15px;
   align-items: center;
   text-align: justify;
