@@ -143,28 +143,24 @@ a:hover, a:active, a:focus {
   padding-bottom: 32px;
 }
 
+.image-container {
+  position: fixed;
+  top: 50%; /* Adjust as needed */
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.image-container img {
+  width: 250px;
+  height: 250px;
+}
+
 .box{
-<<<<<<< HEAD
   position: fixed;
   float: right;
   text-align: right;
   width: 250px;
   height: 250px;
-=======
-  display: flex;
-  flex-direction: column;
-  width: 405px;
-  height: 450px;
-  margin: 15px;
-  align-items: center;
-  text-align: justify;
-  padding: 10px;
-  border-radius: 15px;
-  background: linear-gradient(to top, #24a0ed 50%, white 50%);
-  background-size: 100% 200%;
-  transition: all .10s;
-  margin-top: 50px ;
->>>>>>> 85732e9ebc272caad3ca0c31bdf85617eb71cb00
 }
 
 #about, #work,
