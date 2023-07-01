@@ -144,20 +144,11 @@ a:hover, a:active, a:focus {
 }
 
 .box{
-  display: flex;
-  flex-direction: column;
-  width: 405px;
-  height: 450px;
-  border: 1px solid black;
-  margin: 15px;
-  align-items: center;
-  text-align: justify;
-  padding: 10px;
-  border-radius: 15px;
-  background: linear-gradient(to top, #24a0ed 50%, white 50%);
-  background-size: 100% 200%;
-  transition: all .10s;
-  margin-top: 50px ;
+  position: fixed;
+  float: right;
+  text-align: right;
+  width: 250px;
+  height: 250px;
 }
 
 #about, #work,
@@ -453,7 +444,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact button#submit {
-  background: #000000;
+  background: #241824;
   border: none;
   border-radius: 50px;
   color: #ffffff;
@@ -464,7 +455,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact button#submit:hover {
-  background: #d7b065;
+  background: #660066;
   color: #ffffff;
 }
 
@@ -486,7 +477,7 @@ a:hover, a:active, a:focus {
 }
 
 .social-icon li a {
-  background: #292929;
+  background: #241824;
   border-radius: 100%;
   color: #ffffff;
   cursor: pointer;
@@ -503,7 +494,7 @@ a:hover, a:active, a:focus {
 }
 
 .social-icon li a:hover {
-  background: #d7b065;
+  background: #660066;
   transform: scale(1.1);
 }
 
