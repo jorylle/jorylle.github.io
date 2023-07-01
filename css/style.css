@@ -148,12 +148,10 @@ a:hover, a:active, a:focus {
   top: 50%; /* Adjust as needed */
   right: 0;
   transform: translateY(-50%);
-}
-
-.image-container img {
   width: 250px;
   height: 250px;
 }
+
 
 .box{
   position: fixed;
